@@ -1,16 +1,13 @@
 #!/usr/bin/python3
-"""holds Facility class"""
+"""holds infrastructure class"""
 from models.base_model import BaseModel
 
 
-class Facility(BaseModel):
-    """Representation of a Facility"""
+class Infrastructure(BaseModel):
+    """Representation of an Infrastructure"""
     name: str = ""
-    building_id: str = ""
+    location_id = ""
     description: str = ""
-    category: str
 
     def __init__(self, *args, **kwargs) -> None:
-        """initiliases a facility"""
         super().__init__(*args, **kwargs)
-
