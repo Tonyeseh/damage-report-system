@@ -13,4 +13,3 @@ class Facility(BaseModel):
     def __init__(self, *args, **kwargs) -> None:
         """initiliases a facility"""
         super().__init__(*args, **kwargs)
-

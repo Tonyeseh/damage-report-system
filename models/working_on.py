@@ -10,6 +10,6 @@ class WorkingOn(BaseModel):
     status: str = ""
     date_assigned = ""
     date_completed = ""
-    
+
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
